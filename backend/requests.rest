@@ -1,0 +1,16 @@
+GET http://localhost:3001/todos
+
+##########
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"go out"
+}
+###
+DELETE http://localhost:3001/todo/delete/64fae8111fa5cdb5e377034b
+
+###
+
+PUT http://localhost:3001/todo/complete/64fae9319a75b1bedaa16945
